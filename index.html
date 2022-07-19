@@ -8,68 +8,71 @@
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />    
     </head>
+
     <body>
-        <header>
-            <h1>Michael Bautista</h1>
-            <p>
-                MJBauti's Portfolio Page
-            </p>
+        <header class="clearfix">
+            <p class="logo">MJBauti <span>Michael Bautista's Portfolio Page</span></p>
+            
+            <div>
+                <nav>
+                    <ul class="nav">                                
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+                </nav>                        
+            </div>
         </header>
-
-        <nav>
-            <a href="#">About Me</a>
-            <a href="#">Work</a>
-            <a href="#">Contact Me</a>
-            <a href="#">Resume</a>
-        </nav>
-
-        <main>
-            <section>
-                <h2>About Me</h2>
-                <p>
-                    I'm a full-stack web developer based in Southern California, USA. 
-                </p>
+        
+        <main id="work">           
+            <section id="first-card" class="card">
+                <header>Surf report</header>                
+                <a href="#"><img src="http://via.placeholder.com/150" alt="" title="" /></a>
+                <p>MERN Stack</p>
             </section>
-            <section>
-                <h2>Work</h2>
-                <div>
-                    <h3>Surf Report</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div>
-                    <h3>LED Wall</h3>
-                    <p>Node/IoT</p>
-                </div>
-                <div>
-                    <h3>Calculator</h3>
-                    <p>React/JavaScript/CSS</p>
-                </div>
-                <div>
-                    <h3>Pastel Puzzles</h3>
-                    <p>MERN Stack</p>
-                </div>
-                <div>
-                    <h3>Run Buddy</h3>
-                    <p>HTML/CSS</p>
-                </div>
+            <section class="card">
+                <header>LED Wall</header>                
+                <a href="#"><img src="http://via.placeholder.com/150" alt="" title="" /></a>
+                <p>Node/IoT</p>
             </section>
-            <section>
-                <h2>Contact Me</h2>
-                <ul class="links">
-                    <li>
-                        <a href="#">michael.bautista@yahoo.com</a>
-                    </li>
-                    <li>
-                        <a href="#">GitHub</a>
-                    </li>
-                    <li>
-                        <a href="#">LinkedIn</a>
-                    </li>
-                </ul>
-            </section>            
+            <section class="card">
+                <header>Calculator</header>
+                <a href="#"><img src="http://via.placeholder.com/150" alt="" title="" /></a>
+                <p>React/JavaScript/CSS</p>
+            </section>
+            <section class="card">
+                <header>Pastel Puzzles</header>                
+                <a href="#"><img src="http://via.placeholder.com/150" alt="" title="" /></a>
+                <p>MERN Stack</p>
+            </section>
+            <section class="card">
+                <header>Run Buddy</header>
+                <a href="#"><img src="http://via.placeholder.com/150" alt="" title="" /></a>
+                <p>HTML/CSS</p>
+            </section>
         </main>
+        
+        <div class="sidebar">
+            <aside id="about">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </aside>
+             
+            <aside id="contact">
+                <nav>
+                    <h2>Contact Me</h2>
+                    <ol>
+                        <li><a href="#">E-Mail</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">LinkedIn</a></li>
+                    </ol>
+                </nav>
+            </aside>
+        </div>
+
         <footer>
-            <p>2022 Michael Bautista</p>
-        </footer>
+            <h1>2022 Michael Bautista</h1>
+        </footer>     
     </body>
 </html>

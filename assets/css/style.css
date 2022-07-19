@@ -1,0 +1,179 @@
+/* :root {
+    #b74e07
+    #1d3d76
+} */
+
+body {
+	color: #1d3d76;
+	font: 100% "Trebuchet MS", Verdana, sans-serif;
+	padding-bottom: 20px;
+}
+
+h1,
+.logo {
+	color: #b74e07;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-bottom: .75em;
+}        
+
+p {
+	margin: 0 0 .5em;
+	padding-right: 10px;
+}
+
+a {
+	padding: .2em;
+}
+
+a:link {
+	text-decoration: none;
+	color: #597dbd;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #597dbd;
+}
+
+a:focus,
+a:hover,
+a:active {
+	background: #f3cfb6;
+	text-decoration: underline;
+}
+
+.nav a:hover {
+	text-decoration: none;
+}
+
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+header {
+    padding-bottom: 20px;
+	border-bottom: 2px dotted #1d3d76;
+	margin-bottom: 30px;
+}
+
+.logo {
+	float: left;
+	font-size: 2.5em;
+	margin: 0;
+}
+
+.logo span {
+	color: #1d3d76;
+	display: block;
+	font-size: 0.3em;
+	font-style: italic;
+	font-weight: normal;
+	margin: 3px 0 0 1em;	
+}
+
+header div {
+	float: right;
+	position: relative;
+}
+
+.nav {
+	margin-top: 45px;
+}
+
+.nav li {
+	float: left;
+	font-size: .75em;
+	padding: 0 25px 0 3px;
+}
+
+.nav li a {
+	font-size: 1.5em;
+}
+
+.nav li:first-child {
+	list-style: none;
+	padding-left: 0;
+}
+
+.nav li:last-child {
+	padding-right: 0;
+}
+
+main {
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+    float: right;
+	width: 71%;
+}
+
+.main-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px;
+    background: #1d3d76;
+    color: #fff;
+}
+
+.card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+	border-color: #b74e07;
+}
+
+.card header {
+    padding: 20px;
+    background: #1d3d76;
+    color: #fff;
+}
+
+.card img {    
+	width: 100%;
+    min-width: 400px;
+}
+
+.card img:focus,
+.card img:hover,
+.card img:active {
+	background: #fff;
+}
+
+.sidebar {
+	background: #f5f8fa;
+	padding: 10px;
+    margin-right: 72%;
+}
+
+aside h2 {
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+#about {
+	font-style: italic;
+}
+
+#contact ol {
+	list-style: disc;
+	padding-left: 18px;
+}
+
+footer {
+	border-top: 2px dotted #b74e07;
+	clear: both;
+	margin-top: 10px;
+}
+
+footer h1 {
+	font-size: 1em;
+	margin-bottom: .10px;
+	padding-top: 20px;
+}
