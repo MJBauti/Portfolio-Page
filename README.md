@@ -14,5 +14,5 @@ This is a growing and changing Portfolio Page to highlight my work during and af
 
 Deployed URL: https://mjbauti.github.io/Portfolio-Page/
 
-![MJBauti Portfolio](assets/images/screenshot.png)
+![MJBauti Portfolio]([assets/images/screenshot.png](https://github.com/MJBauti/Portfolio-Page/blob/main/assets/images/screenshot.PNG))
 
