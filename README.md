@@ -12,7 +12,7 @@ This is a growing and changing Portfolio Page to highlight my work during and af
 
 ## Usage
 
-Deployed URL: 
+Deployed URL: https://mjbauti.github.io/Portfolio-Page/
 
 ![MJBauti Portfolio](assets/images/screenshot.png)
 
